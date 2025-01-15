@@ -1,1 +1,2 @@
+# Ingore .env file with locally stored API Keys
 .env

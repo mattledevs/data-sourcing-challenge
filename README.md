@@ -8,6 +8,10 @@ NASA and the Space Weather Prediction Center operate a number of measuring satel
 # Location of Repo
 [https://github.com/mattledevs/data-sourcing-challenge](https://github.com/mattledevs/data-sourcing-challenge)
 
+# NASA API KEY
+To run code, you must provide your own NASA API Key in the form of the variable "NASA_API_KEY" in your .env file. You can sign up for a NASA API Key here:
+[https://api.nasa.gov/](https://api.nasa.gov/)
+
 # Methodology
 
 Part 1, we request and prep the CME data and in Part 2, we request GST data, both from NASA API. Prepping these data sets, allows us to in Part 3, merge and clean the data based off of gstID and CME_ActivityID for GST. 
